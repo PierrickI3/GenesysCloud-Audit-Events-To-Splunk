@@ -35,7 +35,7 @@ In order to run and deploy, follow these steps:
 - Edit the `terraform/terraform.tfvars` file
   - Update the `aws_account_region` field to match your AWS region (e.g. `us-east-1`) then
   - Update the `s3_bucket_name` to a unique name withing your AWS region (e.g. `analytics-gc-audits-<YOUR COMPANY NAME>`). This is an AWS requirement which states that S3 buckets should have unique names within the entire AWS region you have selected.
-  - Update the list of topics you want to monitor. The full list is available [here](https://developer.genesys.cloud/notificationsalerts/notifications/available-topics). Select the `Event Bridge` filter to see the available topics.
+  - Update the list of topics you want to monitor. The full list is available [here](https://developer.genesys.cloud/notificationsalerts/notifications/available-topics). Select the `Event Bridge` filter to see the available topics that are supported by this integration.
   - Save & close the file
 - If you have multiple AWS profiles on your machine (other than `default`, you can check this by running `cat ~/.aws/credentials`), do the following:
   - Edit the `terraform/provider.tf` file
