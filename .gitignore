@@ -1,0 +1,3 @@
+setenv.sh
+terraform/.terraform
+.tfstate
