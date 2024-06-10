@@ -1,6 +1,6 @@
 # Genesys Cloud Audit Events to Splunk
 
-[video](https://github.com/PierrickI3/GenesysCloud-Audit-Events-To-Splunk/assets/splunkdemo.mp4)
+[![Watch the video!](assets/SplunkScreenshot.png)](assets/splunkdemo.mp4 "Watch the video!")
 
 > This is an **art of the possible** solution and should not be used in production without thorough testing.
 
