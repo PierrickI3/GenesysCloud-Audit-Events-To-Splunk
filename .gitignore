@@ -1,3 +1,4 @@
 setenv.sh
 terraform/.terraform
 .tfstate
+.DS_Store
