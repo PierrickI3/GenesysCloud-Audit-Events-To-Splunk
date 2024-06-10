@@ -1,14 +1,16 @@
 # Genesys Cloud Audit Events to Splunk
 
+[video](https://github.com/PierrickI3/GenesysCloud-Audit-Events-To-Splunk/assets/splunkdemo.mp4)
+
 > This is an **art of the possible** solution and should not be used in production without thorough testing.
 
 This repository provides an example of how Genesys Cloud audits can be forwarded to a Splunk instance. It includes a complete terraform configuration that creates a Genesys Cloud Event Bridge integration, writes events from the integration into a Kinesis stream & S3 for backup purposes. It finally includes instructions on how to configure Splunk to read the events from the Kinesis stream.
 
-![Audit Events Splunk Screenshot](images/SplunkScreenshot.png "Audit Events Splunk Screenshot")
+![Audit Events Splunk Screenshot](assets/SplunkScreenshot.png "Audit Events Splunk Screenshot")
 
 The integration works as follows:
 
-![Diagram for the AWS EventBridge - Send Audit Events to Splunk](images/diagram.png "Diagram for the AWS EventBridge - Send Audit Events to Splunk")
+![Diagram for the AWS EventBridge - Send Audit Events to Splunk](assets/diagram.png "Diagram for the AWS EventBridge - Send Audit Events to Splunk")
 
 ## Requirements
 
